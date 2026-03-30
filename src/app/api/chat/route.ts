@@ -141,7 +141,6 @@ export async function POST(request: Request) {
               'mcp__todo-tools__clear_completed',
             ],
             maxTurns: 3,
-            sessionPersistence: false,
           },
         });
 
